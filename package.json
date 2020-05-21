@@ -1,0 +1,24 @@
+{
+  "name": "serviciu-web-generate-pdf",
+  "version": "1.0.0",
+  "description": "TAE-Web-Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Pdf-Generator"
+  ],
+  "author": "RJ",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pdfkit": "^0.11.0",
+    "serve-static": "^1.14.1"
+  }
+}
